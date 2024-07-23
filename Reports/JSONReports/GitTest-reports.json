@@ -1,0 +1,145 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-24T11:09:38.165Z",
+        "line": 6,
+        "name": "User is trying access github account using invalid credentials",
+        "description": "",
+        "id": "sign-in-feature;user-is-trying-access-github-account-using-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User is on github loging page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1038300,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enter wrong credentials",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "wrongUsername",
+                  "worngPassword"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click on submit",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "\u0027Incorrect username or password.\u0027 message should display",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-24T11:09:38.541Z",
+        "line": 14,
+        "name": "User is trying access github account using valid credentials",
+        "description": "",
+        "id": "sign-in-feature;user-is-trying-access-github-account-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User is on github loging page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User enter valid credentials",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "SatishABC",
+                  "HelloHello"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "click on submit",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user able tpo see home page of corresponding github account",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sign-In feature",
+    "description": "Sign feature allow user to login into corresponding github account",
+    "id": "sign-in-feature",
+    "keyword": "Feature",
+    "uri": "file:Features/SignIn.feature",
+    "tags": []
+  }
+]e",
+    "uri": "file:Features/SignIn.feature",
+    "tags": []
+  }
+]

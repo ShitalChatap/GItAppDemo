@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.531">
+    <testcase classname="Sign-In feature" name="User is trying access github account using invalid credentials" time="0.092">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on github loging page.........................................undefined
+When User enter wrong credentials...........................................skipped
+And click on submit.........................................................skipped
+Then 'Incorrect username or password.' message should display...............skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Sign-In feature" name="User is trying access github account using valid credentials" time="0.003">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on github loging page.........................................undefined
+When User enter valid credentials...........................................skipped
+And click on submit.........................................................skipped
+Then user able tpo see home page of corresponding github account............skipped
+]]></failure>
+    </testcase>
+</testsuite>
